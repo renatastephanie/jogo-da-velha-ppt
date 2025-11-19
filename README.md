@@ -48,7 +48,8 @@ O projeto utiliza variáveis CSS para gerenciar facilmente a paleta de cores.
 * **JavaScript (ES6+):** Lógica principal, controle de estado, manipulação de DOM e consumo de API.
 * **API Externa:** [Advice Slip API](https://api.adviceslip.com/) (para mensagens aleatórias).
 
----
+## Para visualizar o projeto, clique no link abaixo:
+[🔗Clique Aqui](https://jogo-da-velha-ppt.vercel.app/)
 
 ---
 
