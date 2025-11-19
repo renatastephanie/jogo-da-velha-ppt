@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Arcade Classico: Jogo da Velha & PPT</title>
+    <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
     <header class="header">
         <h1>Arcade Classico</h1>
@@ -39,7 +42,15 @@
                 <button class="choice-btn" data-choice="papel">✋ Papel</button>
                 <button class="choice-btn" data-choice="tesoura">✌️ Tesoura</button>
             </div>
+            <div id="rps-result" class="game-status">Faça sua jogada!</div>
+            <div id="rps-scores" class="scores">
+                Placar: Jogador <span id="player-score">0</span>- CPU <span id="cpu-score">0</span>
+            </div>
+            <button id="rps-reset-btn" class="reset-button">Resetar Placar</button>
         </section>
     </main>
+
+    <script src="/js/script.js"></script>
 </body>
+
 </html>
